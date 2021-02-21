@@ -14,11 +14,12 @@ Project is build with
 
 ##Build the application and run the application
 
-Navigate to the root of the application (where pom.xml is) and execute
+Navigate to the root of the application (where `pom.xml` is) and execute
 
 ```shell script
  mvn clean install
 ``` 
+This will all execute all unit and integration tests
 
 If you want to run the application after the previous command you can run
 
@@ -139,6 +140,7 @@ curl --location --request DELETE 'localhost:8080/message/1' \
 ```
 
 ##BlackBox Tests with Postman 
+
 Once the up is running you can execute Postman testsuite against it 
 The postman test can be found in `Blackbox-PostmanTests`
 
@@ -153,5 +155,8 @@ Steps to run the black box tests:
 - jwt secret is hardcoded into the code
 - logging should be better , monitoring should be added
 - more unit and integration test should be added 
+
+
+![byebye](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
 
 
